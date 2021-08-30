@@ -16,7 +16,7 @@ Page 1 Image 1x1 size 400px
 Logo size: 400x200
 840x120
 
-Home section width: 420
+Início section width: 420
 
 */
 body{
@@ -167,19 +167,19 @@ small {
   background-color: #006868;
 }
 
-/* Home */
-#tmHome {
+/* Início */
+#tmInício {
   padding-top: 30px;
   padding-bottom: 68px;
 }
 
-.tm-home-left {
+.tm-Início-left {
   max-width: 420px;
   width: 100%;
   margin-right: 185px;
 }
 
-.tm-home-container {
+.tm-Início-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -190,17 +190,17 @@ small {
   margin-bottom: 30px;
 }
 
-.tm-home-hr {
+.tm-Início-hr {
   border-top-color: white;
   margin-bottom: 30px;
 }
 
-.tm-home-title {
+.tm-Início-title {
   font-size: 3.5rem;
   margin-bottom: 40px;
 }
 
-.tm-home-text {
+.tm-Início-text {
   margin-bottom: 47px;
 }
 
@@ -271,7 +271,7 @@ small {
 }
 
 .tm-bg-white {
-  background-color: white;
+  background-color: #d0b8b8;
 }
 
 .tm-call-to-action-col {
@@ -321,13 +321,13 @@ p {
 }
 
 .btn-secondary {
-  background-color: #0299CC;
+  background-color:#c51c30;
   border: none;
   padding: 10px 50px;
 }
 
 .btn-secondary:hover {
-  background-color: #0fb7f0;
+  background-color: #830e0e;
 }
 
 .btn-tertiary {
@@ -355,24 +355,24 @@ p {
   color: #0fb7f0;
 }
 
-/* About Page */
-#tmAbout {
+/* Sobre Page */
+#tmSobre {
   padding-bottom: 80px;
 }
 
-.tm-about-page-title {
+.tm-Sobre-page-title {
   font-size: 2.5rem;
   margin-top: 72px;
   margin-bottom: 40px;
 }
 
-.tm-about-box {
+.tm-Sobre-box {
   padding: 25px;
   max-width: 360px;
   margin-bottom: 30px;
 }
 
-.tm-about-title-hr {
+.tm-Sobre-title-hr {
   border-top-color: black;
   max-width: 450px;
   margin-bottom:0;
@@ -383,11 +383,11 @@ p {
   color: white;
 }
 
-.tm-about-header {
+.tm-Sobre-header {
   padding-bottom: 80px;
 }
 
-.tm-about-number-container {
+.tm-Sobre-number-container {
   width: 83px;
   height: 83px;
   font-size: 2.2rem;
@@ -398,12 +398,12 @@ p {
   margin-bottom: 20px;
 }
 
-.tm-about-name {
+.tm-Sobre-name {
   margin-bottom: 30px;
   text-transform: uppercase;
 }
 
-.tm-about-description {
+.tm-Sobre-description {
   margin-bottom: 30px;
   line-height: 1.8;
 }
@@ -454,8 +454,8 @@ p {
   font-size: 2rem;
 }
 
-/* Services */
-.tm-services-parallax-header {
+/* Serviços */
+.tm-Serviços-parallax-header {
   min-height: 700px;
   display: flex;
   align-items: center; 
@@ -463,25 +463,25 @@ p {
   margin-bottom: 22px;
 }
 
-.tm-services-header {
+.tm-Serviços-header {
   position: relative;
   z-index: 102;
   width: 100%;
   padding: 85px 15px 37px 15px;
 }
 
-.tm-services-page-title {
+.tm-Serviços-page-title {
   font-size: 2.8rem;  
   padding-bottom: 37px;
 }
 
-.tm-services-detail-box {
+.tm-Serviços-detail-box {
   padding: 80px 70px;
   margin-top: 22px;
   margin-bottom: 41px;
 }
 
-#tmServices .tabs {
+#tmServiços .tabs {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -503,15 +503,15 @@ p {
 
 }
 
-#tmServices .tabs li {
+#tmServiços .tabs li {
   margin-bottom: 36px;
 }
 
-#tmServices .tabs li:last-child {
+#tmServiços .tabs li:last-child {
   margin-bottom: 0;
 }
 
-#tmServices .tabs a {
+#tmServiços .tabs a {
   display: flex;
   align-items: center;  
   text-align: left;
@@ -527,7 +527,7 @@ p {
   transition: all 0.3s;  
 }
 
-#tmServices .tabs .icon-wrap {
+#tmServiços .tabs .icon-wrap {
   width: 75px;
   height: 75px;
   border: 1px solid white;
@@ -538,8 +538,8 @@ p {
   margin-right: 30px;
 }
 
-#tmServices .tabs .active,
-#tmServices .tabs a:hover {
+#tmServiços .tabs .active,
+#tmServiços .tabs a:hover {
     border-color: white;
     color: #fff!important;
 }
@@ -556,24 +556,24 @@ p {
   margin-bottom: 40px;
 }
 
-/* Testimonials */
-.tm-testimonials-section {
+/* Equipe */
+.tm-Equipe-section {
   padding-top: 45px;
   padding-bottom: 90px;  
   margin-left: -35px;
   margin-right: -35px;
 }
 
-.tm-testimonials-header {
+.tm-Equipe-header {
   padding: 55px 15px 50px;
 }
 
-.tm-testimonials-page-title {
+.tm-Equipe-page-title {
   padding-bottom: 0;
   margin-bottom: 20px;
 }
 
-.tm-testimonials-parallax-header {
+.tm-Equipe-parallax-header {
   min-height: 400px;
   margin-bottom: 45px;
 }
@@ -620,23 +620,23 @@ p {
 }
 
 
-#tmCallToAction.tm-testimonials-cta {
+#tmCallToAction.tm-Equipe-cta {
   padding-bottom: 185px;
 }
 
-/* Contact page */
-.tm-contact-form {
+/* Contatos page */
+.tm-Contatos-form {
   height: 100%;
   padding: 67px 115px 67px 70px;  
   margin-right: 5px;
 }
 
-.tm-contact-text {
+.tm-Contatos-text {
   padding: 58px 95px 100px 80px;  
   margin-left: 5px;
 }
 
-.tm-contact-col-left {  
+.tm-Contatos-col-left {  
   margin-bottom: 0;
 }
 
@@ -668,7 +668,7 @@ p {
   color: white;
 }
 
-.tm-contact-row {
+.tm-Contatos-row {
   padding-top: 45px;
   padding-bottom: 40px;
 }
@@ -713,7 +713,7 @@ p {
    background-color: rgba(255,255,255,0.8);
  }
 
- .tm-home-left {
+ .tm-Início-left {
    margin-right: 50px;
  }
 
@@ -726,7 +726,7 @@ p {
    padding: 14px 19px;
  }
 
- .tm-about-box,
+ .tm-Sobre-box,
  .tm-app-feature-box {
    margin-left: auto;
    margin-right: auto;
@@ -750,16 +750,16 @@ p {
     width: 100%;
  }
 
- .tm-contact-col-left {
+ .tm-Contatos-col-left {
    margin-bottom: 40px;   
  }
 
 
-  .tm-contact-form {
+  .tm-Contatos-form {
     margin-right: 0;
   }
   
- .tm-contact-text {
+ .tm-Contatos-text {
    margin-left: 0;
  }
  
@@ -782,11 +782,11 @@ p {
 }
 
 @media (max-width: 767px) {
-  .tm-home-container {
+  .tm-Início-container {
     flex-direction: column;
   }
 
-  .tm-home-left {
+  .tm-Início-left {
     margin-bottom: 50px;
     margin-right: 0;
   }
@@ -815,11 +815,11 @@ p {
     margin: 8px;
   }
 
-  .tm-contact-form {
+  .tm-Contatos-form {
     padding: 45px;
   }
 
-  .tm-contact-text {
+  .tm-Contatos-text {
     padding: 60px;
   }
 }
