@@ -119,7 +119,7 @@ small {
 .navbar-light .navbar-nav .nav-item.green-highlight .nav-link.active, 
 .navbar-light .navbar-nav .nav-item.green-highlight .nav-link.show, 
 .navbar-light .navbar-nav .nav-item.green-highlight .show > .nav-link {
-  color: #006868;
+  color: #000000;
 }
 
 .nav-item {
@@ -159,12 +159,12 @@ small {
 
 .nav-item.active.green-highlight .nav-link,
 .nav-item.green-highlight:hover .nav-link {
-  border-top-color: #006868;
+  border-top-color: #666768;
 }
 
 .nav-item.active.green-highlight
 .tm-nav-link-highlight {
-  background-color: #006868;
+  background-color: c51c30;
 }
 
 /* Início */
@@ -827,4 +827,10 @@ p {
 
 .bg-transparent {
   background-color: transparent ;
+}
+.bg-pagging {
+  padding: 15px 40px;
+}
+.bg-paggingg {
+  padding: 10px 40px;
 }
