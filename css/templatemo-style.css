@@ -20,7 +20,8 @@ Início section width: 420
 
 */
 body{
-  background-color: rgb(150 32 32);
+  background: rgb(166,23,23);
+background: linear-gradient(0deg, rgb(150 32 32) 28%, rgba(84,84,82,1) 100%);
 }
 html {
   scroll-behavior: smooth;
@@ -833,4 +834,10 @@ p {
 }
 .bg-paggingg {
   padding: 10px 40px;
+}
+.p-text{
+  text-align: center;
+}
+.p-height {
+  height: 88%;
 }
